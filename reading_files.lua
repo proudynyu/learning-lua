@@ -30,7 +30,7 @@ function Read_file(filePath)
     return file
 end
 
-function Write_file(filePath, data) 
+function Write_file(filePath, data)
     if not filePath then
         return Assert(false, "No filepath was passed")
     end

@@ -1,3 +1,5 @@
+require("logger")
+
 print("Hello World")
 print("What is your name?")
 
@@ -17,3 +19,7 @@ end
 
 say_hello(readName)
 print(factorial(3))
+
+Logger("Log")
+Error("Log")
+Warn("Log")
